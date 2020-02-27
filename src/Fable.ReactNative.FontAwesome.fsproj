@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Fable.ReactNative.FontAwesome</PackageId>
+    <Version>1.0.0</Version>
+    <PackageTags>Fable;react-native;fontawesome;Fsharp;FSharp Fable ReactNative;</PackageTags>
+    <Description>Fable bindings for react-native-fontawesome</Description>
+    <PackageProjectUrl>https://github.com/martinmoec/Fable.ReactNative.FontAwesome</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/martinmoec/Fable.ReactNative.FontAwesome</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Fable.ReactNative.FontAwesome.fs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <NpmDependencies>
+      <NpmPackage Name="react-native-fontawesome" Version="&gt;= 7.0.0" />
+    </NpmDependencies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="*.fsproj; *.fs" PackagePath="fable\" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
