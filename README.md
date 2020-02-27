@@ -19,7 +19,7 @@ How to add the `.ttf` files:
 - [iOS](https://medium.com/react-native-training/adding-custom-fonts-to-react-native-b266b41bff7f)
 - [Android](https://medium.com/@gattermeier/custom-fonts-in-react-native-for-android-b8a331a7d2a7)
 
-For further info see the [react-native-fontawesome](https://github.com/entria/react-native-fontawesome) project.
+For further info on the npm module see the [react-native-fontawesome](https://github.com/entria/react-native-fontawesome) project.
 
 ## Samples
 The `fa` function takes a Font Awesome class string and a list of Fable.ReactNative style properties. See [FontAwesome](https://fontawesome.com/) for class names.
@@ -58,7 +58,7 @@ let view model dispatch =
 
 
         // button with arrow
-        fontAwesome "fas fa-arrow-right" [
+        fa "fas fa-arrow-right" [
             TextAlign TextAlignment.Center
             FontSize 15.
         ]
