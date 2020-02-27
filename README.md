@@ -4,7 +4,7 @@ Provides simple Fable bindings for the [react-native-fontawesome](https://github
 
 ## Setup
 
-Add the `Fable.ReactNative.FontAwesome` nuget to your F# projec:
+Add the [nuget](https://www.nuget.org/packages/Fable.ReactNative.FontAwesome) to your F# project:
 
 `paket add Fable.ReactNative.FontAwesome`
 
